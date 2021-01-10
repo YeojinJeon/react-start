@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+// App.js에서 만들어서 export한 컴포넌트를 불러올 때는 아래와 같이 불러 옴.
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
