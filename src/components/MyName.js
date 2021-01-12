@@ -7,9 +7,11 @@
    - 컴포넌트 내부에서 선언하며 내부에서 값을 변경할 수 있다.  
 */
 
-import React, { Component } from 'react';
+import React from 'react';
+//import {Component} from 'react';
 
-
+/*
+// 클래스형 컴포넌트
 class MyName extends Component 
 {
     render() {
@@ -20,6 +22,16 @@ class MyName extends Component
         );
     }
 }
+*/
+
+// 함수형 컴포넌트
+const MyName = ({name}) =>{
+    return (
+        <div>
+            안녕하세요. 제 이름은 {name}입니다.
+        </div>
+    );
+}
 
 MyName.defaultProps = {
     name: '전여진'
@@ -28,3 +40,4 @@ MyName.defaultProps = {
 export default MyName;
 // export 빼먹으면 아래와 같은 컴파일 에러 뜸
 // Attempted import error: './components/MyName' does not contain a default export (imported as 'MyName').
+
