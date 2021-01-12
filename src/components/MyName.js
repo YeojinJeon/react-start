@@ -9,6 +9,7 @@
 
 import React, { Component } from 'react';
 
+
 class MyName extends Component 
 {
     render() {
@@ -19,6 +20,10 @@ class MyName extends Component
         );
     }
 }
+
+MyName.defaultProps = {
+    name: '전여진'
+};
 
 export default MyName;
 // export 빼먹으면 아래와 같은 컴파일 에러 뜸
