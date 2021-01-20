@@ -50,6 +50,7 @@ function App() {
       괜히 "<div></div>" 하나 더 만들어 봤어 : Fragment 테그 사용해 보려고
       </div>
       <MyName name="리액트" />
+      <Counter />
 
 
     </Fragment>
