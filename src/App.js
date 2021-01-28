@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { Fragment, Component } from 'react';
 import MyName from './components/MyName';
+import Counter from './components/Counter';
 
 // 이렇게 import 하는 것은 webpack 을 사용하기 때문에 가능한건데
 // => 프로젝트 빌드시 webpack에서 파일 확장자에 따라서 다른 작업을 하게 됨
