@@ -51,6 +51,8 @@ function App() {
       <MyName name="리액트" />
 
       <MyComponent />
+      <MyComponent>리액트</MyComponent>
+      
     </Fragment>
   );
 }
