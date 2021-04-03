@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React, { Fragment, Component } from 'react';
 import MyName from './components/MyName';
+import MyComponent from './components/MyComponent';
 
 // 이렇게 import 하는 것은 webpack 을 사용하기 때문에 가능한건데
 // => 프로젝트 빌드시 webpack에서 파일 확장자에 따라서 다른 작업을 하게 됨
@@ -14,9 +15,7 @@ import MyName from './components/MyName';
    2. 함수를 통해 만드는 방법
    여기선 함수를 통해 만들었다.
 
-
  */
-
 
 function App() {
 
@@ -50,9 +49,8 @@ function App() {
       괜히 "<div></div>" 하나 더 만들어 봤어 : Fragment 테그 사용해 보려고
       </div>
       <MyName name="리액트" />
-      <Counter />
 
-
+      <MyComponent />
     </Fragment>
   );
 }
